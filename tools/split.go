@@ -1,6 +1,9 @@
 package tool
 
-import "strings"
+import (
+	"fmt"
+	"strings"
+)
 
 /*************************************************************
  * String split operation
@@ -156,4 +159,8 @@ func FirstLine(output string) string {
 		return output[0:i]
 	}
 	return output
+}
+
+func AAA(s []string) {
+	fmt.Println(s[1])
 }
